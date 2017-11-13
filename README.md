@@ -29,7 +29,7 @@
     - public Card getOneCard() 發一張牌出來，回傳Card object
         - 要檢查沒牌了 (牌都發完了) 怎麼辦？ shuffle() ！
         - 發出去的牌紀錄在ArrayList<Card> usedCard
-        - 發了幾張牌？紀錄在private int nUsed;
+        - 發了幾張牌？紀錄在public int nUsed;
         - Deck constructor 在最後呼叫shuffle() method
     - 因應Card 的Constructor修改，有些Code 要更動
         - 提示： for (Card.Suit s : Card.Suit.values()){ }
